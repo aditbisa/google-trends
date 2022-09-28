@@ -45,5 +45,6 @@ Examples:
 ## TODO
 - Correction to `collect` usage by calling the module.
 - Add timestamp to log running time.
+- Investigate and handle request failure from Google. I got 400 & 500 response code.
 - Use proxies for heavy load.
 - Parallel process to speed up the collection.
