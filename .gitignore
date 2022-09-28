@@ -1,2 +1,7 @@
+# Python
+__pycache__/
+dist/
+*.egg-info/
+
 # the output
 *.csv
