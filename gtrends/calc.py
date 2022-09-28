@@ -1,10 +1,10 @@
 import math
 import sys
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, date
 from typing import Tuple
 
 
-def calculate(start_date: datetime.date, end_date: datetime.date) -> Tuple[int, bool]:
+def calculate(start_date: date, end_date: date) -> Tuple[int, bool]:
     """
     Calculate Google Trends request call count for hourly data and determine if its hits rate limit.
     """
