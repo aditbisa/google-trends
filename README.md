@@ -9,7 +9,7 @@ Based on the documentation of [pytrends](https://github.com/GeneralMills/pytrend
 
 Calculate your requests call count with this command:
 ```
-./main.sh calc <start-date> <stop-date, default: today>
+./main.sh calc <start-date> <end-date, default: today>
 ./main.sh calc 2015-01-01 2018-01-01
 ./main.sh calc 2015-01-01 today
 ./main.sh calc 2015-01-01
