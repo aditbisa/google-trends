@@ -7,7 +7,7 @@ case "$1" in
         ;;
 
     collect)
-        echo "COLLECT"
+        python gtrends/collect.py ${@:2}
         ;;
 
     *)
