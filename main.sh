@@ -3,11 +3,11 @@
 case "$1" in
 
     calc)
-        python gtrends/calc.py ${@:2}
+        python -m gtrends.calc ${@:2}
         ;;
 
     collect)
-        python gtrends/collect.py ${@:2}
+        python -m gtrends.collect ${@:2}
         ;;
 
     *)
